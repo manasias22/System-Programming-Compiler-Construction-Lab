@@ -1,8 +1,8 @@
-# System-Programming-Compiler-Construction
-Theoretical computer science, Operating system. Computer Organization and Architecture
+# <H1> System Programming Compiler Construction Lab
+_Theoretical computer science, Operating system. Computer Organization and Architecture_
 
 
-Lab Outcomes: At the end of the course, the students will be able to 
+## <h3>Lab Outcomes: At the end of the course, the students will be able to 
 
 1.Generate machine code by implementing two pass assemblers
 
