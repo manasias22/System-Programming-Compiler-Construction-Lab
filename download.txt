@@ -10,6 +10,10 @@ Download Flex : https://gnuwin32.sourceforge.net/packages/flex.htm
 Download Bison : https://gnuwin32.sourceforge.net/packages/bison.htm
 Download DevC++:  https://sourceforge.net/projects/orwelldevcpp/files/Compilers/TDM-GCC/
 
+Path : C:\GnuWin32\bin
+       C:\Dev-Cpp\MinGW64\bin 
+
+
 Copy the path of gcc bin to the environment variable -->system variabe -->path add to new path
 Copy their path from This pc-->properties-->advanced system settings-->environment variables-->system variables chya path madhe jaun gcc bin ani dev cpp cha path add krun okay karych
 
