@@ -1,0 +1,5 @@
+Compiling and running yacc program:
+flex hello.l
+bison -dy hello.y
+gcc lex.yy.c y.tab.c
+a.exe
