@@ -3,3 +3,43 @@ flex hello.l
 bison -dy hello.y
 gcc lex.yy.c y.tab.c
 a.exe
+
+#Parser.l.txt
+
+%{
+#include "y.tab.h"
+%}
+
+%%
+
+[0-9]+      { yylval = atoi(yytext); return NUMBER; }
+[-+*/\n]    { return *yytext; }
+[ \t]       ; // Ignore whitespace
+
+.           { return yytext[0]; } // Any other character is returned as is
+
+%%
+
+int yywrap() {
+    return 1;
+}
+
+#ParserYACC.y.txt
+
+%{
+#include "y.tab.h"
+%}
+
+%%
+
+[0-9]+      { yylval = atoi(yytext); return NUMBER; }
+[-+*/\n]    { return *yytext; }
+[ \t]       ; // Ignore whitespace
+
+.           { return yytext[0]; } // Any other character is returned as is
+
+%%
+
+int yywrap() {
+    return 1;
+}
