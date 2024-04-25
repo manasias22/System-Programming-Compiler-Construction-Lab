@@ -2,15 +2,17 @@ for gcc:  https://sourceforge.net/projects/gcc-win64/
 for extracting this 7z file : https://7-zip.org/ 
 copy the path of gcc bin to the environment variable -->system variabe -->path add to new path
 
-for flex:   https://sourceforge.net/projects/gnuwin32/files/flex/2.5.4a-1/flex-2.5.4a-1.exe/download
 
+for flex:   https://sourceforge.net/projects/gnuwin32/files/flex/2.5.4a-1/flex-2.5.4a-1.exe/download
 for bison:   https://sourceforge.net/projects/gnuwin32/files/bison/2.4.1/bison-2.4.1-setup.exe/download
+for Dev cpp: https://sourceforge.net/projects/orwelldevcpp/files/Compilers/TDM-GCC/
 
 
 Download the following Software:
 Download Flex 2.5.4a: https://sourceforge.net/projects/gnuwin32/files/flex/2.5.4a-1/flex-2.5.4a-1.exe/download
 Download Bison 2.4.1:  https://sourceforge.net/projects/gnuwin32/files/bison/2.4.1/bison-2.4.1-setup.exe/download
-Download DevC++: https://www.bloodshed.net/
+Download DevC++:  https://sourceforge.net/projects/orwelldevcpp/files/Compilers/TDM-GCC/
+
 
 Copy their path from This pc-->properties-->advanced system settings-->environment variables-->system variables chya path madhe jaun gcc bin ani dev cpp cha path add krun okay karych
 
