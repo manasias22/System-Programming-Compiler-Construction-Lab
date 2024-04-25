@@ -9,10 +9,9 @@ for Dev cpp: https://sourceforge.net/projects/orwelldevcpp/files/Compilers/TDM-G
 
 
 Download the following Software:
-Download Flex 2.5.4a: https://sourceforge.net/projects/gnuwin32/files/flex/2.5.4a-1/flex-2.5.4a-1.exe/download
-Download Bison 2.4.1:  https://sourceforge.net/projects/gnuwin32/files/bison/2.4.1/bison-2.4.1-setup.exe/download
+Download Flex : https://gnuwin32.sourceforge.net/packages/flex.htm
+Download Bison : https://gnuwin32.sourceforge.net/packages/bison.htm
 Download DevC++:  https://sourceforge.net/projects/orwelldevcpp/files/Compilers/TDM-GCC/
-
 
 Copy their path from This pc-->properties-->advanced system settings-->environment variables-->system variables chya path madhe jaun gcc bin ani dev cpp cha path add krun okay karych
 
